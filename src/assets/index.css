@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-brand-background text-black;
+
+  font-family: "Roboto", sans-serif;
+}
