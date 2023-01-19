@@ -3,7 +3,7 @@ import { Button } from "../components";
 const MandatePage = () => {
   return (
     <div className="container mx-auto mb-36 flex justify-center">
-      <div className="mt-28 flex h-full flex-col justify-center">
+      <div className="mx-44 mt-28 flex h-full flex-col justify-center">
         {/* Title */}
         <div className="mb-20 flex w-full justify-center">
           <h1 className="text-6xl font-bold">Our Mandate</h1>
@@ -45,13 +45,17 @@ const MandatePage = () => {
         </div>
 
         {/* Images */}
-        <div className="mt-20 flex items-center justify-between gap-4">
-          <div className="flex h-64 w-full items-center justify-center rounded-lg bg-blue-400">
-            <span>Meet the team</span>
+        <div className="relative mt-20 flex items-center gap-4">
+          <div className="h-64 w-full rounded-lg bg-blue-400">
+            <Button className="absolute top-44 left-9 rounded-xl bg-gray-100 px-8 py-3 font-bold uppercase text-gray-800 transition-all duration-300 hover:bg-teal-500 hover:text-gray-100">
+              Meet the team
+            </Button>
           </div>
 
-          <div className="flex h-64 w-full items-center justify-center rounded-lg bg-red-400">
-            <span>Our locations</span>
+          <div className="relative flex h-64 w-full rounded-lg bg-red-400">
+            <Button className="absolute top-44 left-9 rounded-xl bg-gray-100 px-8 py-3 font-bold uppercase text-gray-800 transition-all duration-300 hover:bg-teal-500 hover:text-gray-100">
+              Our locations
+            </Button>
           </div>
         </div>
 

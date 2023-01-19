@@ -66,7 +66,7 @@ const Nav = () => {
             <NavLink
               to={item.path}
               key={index}
-              className="border-gray-500 py-2.5 px-5 text-gray-500 hover:border-y-[3px]"
+              className="border-gray-500 py-2.5 px-3 text-gray-500 hover:border-y-[3px]"
               onMouseOver={() => {
                 handleHoverOn(index);
               }}
@@ -110,6 +110,7 @@ const Nav = () => {
         ))}
       </div>
 
+      {/* Dropdown */}
       <div className="lg:hidden">
         <Dropdown
           className="bg-gray-800 text-gray-400 hover:text-black focus:ring-2 focus:ring-white focus:ring-offset-4 focus:ring-offset-red-800"

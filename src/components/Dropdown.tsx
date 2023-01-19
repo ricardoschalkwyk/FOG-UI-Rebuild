@@ -17,7 +17,7 @@ type DropdownOption = {
 type Props = {
   children: React.ReactNode;
   className?: string;
-  options: DropdownOption[] | Sub[];
+  options: DropdownOption[];
 };
 
 function Dropdown({ className, children, options }: Props) {

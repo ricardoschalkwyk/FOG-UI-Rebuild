@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutUsPage = () => {
   return (
     <div className="container mx-auto flex flex-col justify-center md:w-max lg:w-3/5">
