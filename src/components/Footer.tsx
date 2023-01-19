@@ -3,9 +3,9 @@ import NavLink from "./NavLink";
 
 const Footer = () => {
   return (
-    <div className="flex h-28 items-center justify-center bg-gray-800">
+    <div className="flex h-28 w-full items-center bg-gray-800">
       {/* Left */}
-      <div className="text-t flex items-center justify-center pt-4">
+      <div className="mx-36 flex items-center justify-between pt-4">
         <div>
           {navItems.map((item, index) => (
             <NavLink

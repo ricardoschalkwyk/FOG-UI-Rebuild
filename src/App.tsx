@@ -4,18 +4,22 @@ import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import MandatePage from "./pages/MandatePage";
 import LeadershipPage from "./pages/LeadershipPage";
+import RecoursesPage from "./pages/RecoursesPage";
 
 function App() {
   return (
     <>
       <Router>
         <Nav />
+
         <Routes>
           <Route path="/home" element={<HomePage />} />
           <Route path="/about" element={<AboutUsPage />} />
           <Route path="/about/mandate" element={<MandatePage />} />
           <Route path="/about/leadership" element={<LeadershipPage />} />
+          <Route path="/recourses" element={<RecoursesPage />} />
         </Routes>
+
         <Footer />
       </Router>
     </>
