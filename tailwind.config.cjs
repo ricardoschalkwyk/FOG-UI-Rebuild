@@ -6,6 +6,8 @@ module.exports = {
       colors: {
         brand: {
           background: "#eaeaea",
+          image: "#212121",
+          teal_green: " #13afa7",
         },
       },
     },

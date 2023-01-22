@@ -12,13 +12,13 @@ const MandatePage = () => {
         {/* Text */}
         <div className="flex-col items-center gap-10 lg:flex">
           <div className="w-full text-5xl font-bold text-teal-600">
-            <p>
+            <p className="text-center">
               We love God, we love people, and we would love to see the world
               enjoy a friendship with God.
             </p>
           </div>
 
-          <div className="w-full">
+          <div className="w-full text-center">
             <p>
               Inspired by Matthew 28:19-20, the Friend of God family is building
               one church in many locations, in so doing, reaching our local

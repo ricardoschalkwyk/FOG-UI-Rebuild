@@ -20,7 +20,7 @@ const LeadershipPage = () => {
           </div>
 
           {/* Text */}
-          <div className="mt-5 w-full">
+          <div className="mt-5 w-full text-center">
             <p>
               Under the leadership of Gerald and Liezl, Friend of God is
               constantly growing and truly experiencing the grace of God. Gerald

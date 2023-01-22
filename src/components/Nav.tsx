@@ -43,12 +43,6 @@ const Nav = () => {
     setIsActive(newArray);
   };
 
-  const handleHoverOff = (index: any) => {
-    let newArray = navItems.map((item) => ({ ...item, active: false }));
-    newArray[index].active = !newArray[index].active;
-    setIsActive(newArray);
-  };
-
   return (
     <div className="fixed z-10 flex w-full items-center justify-center gap-40 bg-white py-2.5 shadow-md shadow-gray-400">
       <div>
@@ -66,12 +60,9 @@ const Nav = () => {
             <NavLink
               to={item.path}
               key={index}
-              className="border-gray-500 py-2.5 px-3 text-gray-500 hover:border-y-[3px]"
+              className="border-gray-500 py-2.5 px-4 text-gray-500 hover:border-y-[3px]"
               onMouseOver={() => {
                 handleHoverOn(index);
-              }}
-              onMouseOut={() => {
-                handleHoverOff(index);
               }}
             >
               {item.name}

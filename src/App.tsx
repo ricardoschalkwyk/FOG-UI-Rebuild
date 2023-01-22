@@ -5,6 +5,7 @@ import AboutUsPage from "./pages/AboutUsPage";
 import MandatePage from "./pages/MandatePage";
 import LeadershipPage from "./pages/LeadershipPage";
 import RecoursesPage from "./pages/RecoursesPage";
+import GivingPage from "./pages/GivingPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about/mandate" element={<MandatePage />} />
           <Route path="/about/leadership" element={<LeadershipPage />} />
           <Route path="/recourses" element={<RecoursesPage />} />
+          <Route path="/giving" element={<GivingPage />} />
         </Routes>
 
         <Footer />
